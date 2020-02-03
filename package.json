@@ -1,0 +1,29 @@
+{
+  "name": "storybook-html-starter",
+  "version": "1.0.0",
+  "description": "Storybook is an open source tool for developing UI components in isolation. This starter template uses only HTML - no JS framework required.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -s ./public -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koakekuna/storybook-html-starter.git"
+  },
+  "keywords": [
+    "storybook"
+  ],
+  "author": "Koa Kekuna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koakekuna/storybook-html-starter/issues"
+  },
+  "homepage": "https://github.com/koakekuna/storybook-html-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@storybook/html": "^5.3.10",
+    "babel-loader": "^8.0.6"
+  }
+}
