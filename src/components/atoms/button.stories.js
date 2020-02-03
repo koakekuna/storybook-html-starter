@@ -1,5 +1,9 @@
+import buttonPrimary from "./button-primary.html";
+
 export default {
   title: "Project Design System/Atoms/Buttons"
 };
 
-export const ButtonPrimary = () => `<button>Click Me!</button>`;
+export const ButtonPrimary = () => {
+  return buttonPrimary;
+};

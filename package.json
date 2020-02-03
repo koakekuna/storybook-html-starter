@@ -24,6 +24,8 @@
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@storybook/html": "^5.3.10",
-    "babel-loader": "^8.0.6"
+    "babel-loader": "^8.0.6",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
   }
 }
