@@ -23,7 +23,12 @@
   "homepage": "https://github.com/koakekuna/storybook-html-starter#readme",
   "devDependencies": {
     "@babel/core": "^7.8.4",
+    "@storybook/addon-a11y": "^5.3.11",
+    "@storybook/addon-backgrounds": "^5.3.11",
+    "@storybook/addon-knobs": "^5.3.11",
+    "@storybook/addon-viewport": "^5.3.11",
     "@storybook/html": "^5.3.10",
+    "@whitespace/storybook-addon-html": "^1.2.1",
     "babel-loader": "^8.0.6",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2"

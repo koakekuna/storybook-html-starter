@@ -1,14 +1,28 @@
 .btn {
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 12px 40px 12px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  position: relative;
+
+  img {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 7px;
+    height: auto;
+  }
 
   &--primary {
     background-color: #008cba;
+  }
+
+  &.red {
+    background-color: #8C1717;
   }
 }
