@@ -30,7 +30,7 @@
     "@storybook/html": "^5.3.10",
     "@whitespace/storybook-addon-html": "^1.2.1",
     "babel-loader": "^8.0.6",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.2"
   }
 }
